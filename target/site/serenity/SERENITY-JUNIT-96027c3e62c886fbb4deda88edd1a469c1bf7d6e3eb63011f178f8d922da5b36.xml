@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.AccountDetailsTestCases" skipped="0" tests="1" time="10.92" timestamp="2024-05-14 07:27:56"><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Test"><failure message="expected:&lt;...om/customer/address/[]&gt; but was:&lt;...om/customer/address/[edit/id/451/]&gt;" type="junit.framework.ComparisonFailure">expected:&lt;...om/customer/address/[]&gt; but was:&lt;...om/customer/address/[edit/id/451/]&gt;</failure><system-err>expected:&lt;...om/customer/address/[]&gt; but was:&lt;...om/customer/address/[edit/id/451/]&gt;&#13;
+junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+org.example.features.search.AccountDetailsTestCases.Test(AccountDetailsTestCases.java:40)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

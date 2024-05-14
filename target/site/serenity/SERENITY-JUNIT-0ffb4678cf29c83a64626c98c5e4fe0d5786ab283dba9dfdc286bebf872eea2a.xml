@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="6" name="org.example.features.search.AccountDetailsTestCases" skipped="0" tests="24" time="222.95" timestamp="2024-05-14 09:40:52"><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Numeric first name"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.NumericFirstName(AccountDetailsTestCases.java:52)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid last name"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty street address"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty phone number"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Numeric last name"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.NumericLastName(AccountDetailsTestCases.java:76)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Special character street address"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.SpecialCharacterStreetAddress(AccountDetailsTestCases.java:148)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Single digit phone number"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.SingleDigitPhoneNumber(AccountDetailsTestCases.java:116)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Special character zip or postal code"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.SpecialCharacterZipOrPostalCode(AccountDetailsTestCases.java:204)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid street address"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid phone number"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid zip or postal code"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid company"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid country"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty city"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid state or province"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty last name"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid city"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty first name"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty company"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty country"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty zip or postal code"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Empty state or province"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Valid first name"/><testcase classname="org.example.features.search.AccountDetailsTestCases" name="Special character phone number"><failure message="Verify current URL&#10;Expected: not &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;&#10;     but: was &quot;https://magento.softwaretestingboard.com/customer/address/index/&quot;" type="java.lang.AssertionError">Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"</failure><system-err>Verify current URL
+Expected: not "https://magento.softwaretestingboard.com/customer/address/index/"
+     but: was "https://magento.softwaretestingboard.com/customer/address/index/"&#13;
+org.example.steps.serenity.AccountDetailsSteps.shouldNotBeOnPage(AccountDetailsSteps.java:89)&#13;
+org.example.features.search.AccountDetailsTestCases.SpecialCharacterPhoneNumber(AccountDetailsTestCases.java:124)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
